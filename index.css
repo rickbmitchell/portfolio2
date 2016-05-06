@@ -1,4 +1,4 @@
-/* Mobile first - tested with iPhone6 */
+/* Mobile first */
 
 * {
   margin: 0;
@@ -57,7 +57,7 @@ li {
 .logo-lg {
   text-align: center;
   background-color: black;
-  margin-top: -5%;
+  margin-top: -10%;
 }
 
 .logo-lg img {
@@ -66,6 +66,7 @@ li {
 
 #intro {
   padding-top: 2%;
+  margin-bottom: 1%;
   font-family: 'Montserrat', sans-serif;
   background: url("./images/phlmap copy2.jpg");
   background-repeat: no-repeat;
@@ -73,11 +74,12 @@ li {
   padding: 0 0 1% 1%;
   margin: 0;
   width: 100%;
-  height: 42vh;
+  margin-right: 20%;
 }
 
 #intro img {
   padding-top: 1%;
+  padding-left: 1%;
   max-width: 30%;
   height: auto;
   border-radius: 50%;
@@ -86,15 +88,15 @@ li {
 
 #intro h3 {
   font-size: 1.2rem;
-  padding-top: 10%;
+  padding-top: 13%;
   text-align: center;
 }
 
 #intro p {
   font-size: 1rem;
   margin-right: 2%;
-  margin-left: 2%;
-  margin-top: 10%;
+  margin-left: 3%;
+  margin-top: 13%;
 }
 
 #big-container {
@@ -140,7 +142,7 @@ li {
 }
 
 #contact-bar {
-  margin-top: 22%;
+  margin-top: 50px;
   height: 25vh;
   width: 100%;
   display: flex;
@@ -159,24 +161,26 @@ li {
 }
 
 .box2 p {
-  font-size: 18pt;
+  font-size: 12pt;
   font-family: 'Montserrat', sans-serif;
 }
 
 .box2 i {
   margin: auto 0;
   color: black;
+  font-size: 60px;
 }
 
 .work-contain {
   top: 138%;
+  margin: 0 auto;
 }
 
 .work-title {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .card {
@@ -317,6 +321,24 @@ li {
     margin-top: 25%;
   }
 
+  .box2 {
+  height: 20vh;
+  width: 200px;
+  text-align: center;
+  margin-left: 20px;
+  }
+
+  .box2 p {
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .box2 i {
+    margin: auto 0;
+    color: black;
+    font-size: 80px;
+  }
+
   .card {
     left: 10%;
     height: 400px;
@@ -340,6 +362,10 @@ li {
     height: 400px;
     width: 600px;
     margin-bottom: 5%;
+  }
+
+  .work-title {
+    margin-bottom: 1%;
   }
 
   .cv-org {
@@ -371,7 +397,8 @@ li {
   }
 
   #intro {
-    height: 40vh;
+    height: 35vh;
+    padding-bottom: 5%;
   }
 
   #intro img {
@@ -393,33 +420,23 @@ li {
     margin-top: 2%;
   }
 
+  .reg-textbox {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
   .reg-textbox p {
-    font-size: 18pt;
+    font-size: 1.5rem;
   }
 
 
-  .card {
+  .card, .card2, .card3, .card4 {
     left: 28%;
-    height: 400px;
-    width: 600px;
-  }
-
-  .card2 {
-    left: 28%;
-    height: 400px;
-    width: 600px;
-  }
-
-  .card3 {
-    left: 28%;
-    height: 400px;
-    width: 600px;
+    height: 20%;
+    width: 42%;
   }
 
   .card4 {
-    left: 28%;
-    height: 400px;
-    width: 600px;
     margin-bottom: 5%;
   }
 
@@ -451,4 +468,15 @@ li {
     text-decoration: none;
     color: gray;
   }
+}
+
+@media all and (min-width: 1500px) {
+
+  #intro p {
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin-right: 23%;
+    margin-top: 2%;
+  }
+
 }
