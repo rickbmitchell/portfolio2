@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="index.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/foundation.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
     <link href='https://fonts.googleapis.com/css?family=Pacifico|Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
     <TITLE>rick mitchell</TITLE>
   </head>
-  <body>
+  <body class="index">
     <header>
       <h2><a href="index.html">Rick Mitchell</a></h2>
     </header>
     <nav>
       <ul>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li id="work-nav"><a href="work.html">Work</a></li>
+        <li id="cv-nav"><a href="cv.html">CV</a></li>
+        <li id="contact-nav"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="logo-lg">
-      <img src="./images/logo-white2.png">
+      <a href="index.html"><img src="./images/logo-white2.png"></a>
     </div>
-    <div class="big-container">
+    <div class="row collapse">
+      <div class="small-12 medium-12 columns">
+        <div class="big-container">
+          <div class="content">
+            <div class="content-container">
+              <ul class="content-container-list">
+                <li class="content-container-list-item">Web Developer</li>
+                <li class="content-container-list-item">UX Thinker</li>
+                <li class="content-container-list-item">Freelance Writer</li>
+                <li class="content-container-list-item">Philadelphian</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="intro">
-      <img src="./images/rm-md-crop.jpg">
-      <h3>
-        Welcome. I'm Rick Mitchell.
-      </h3>
-      <p>
-        I'm a web developer and writer based in Philadelphia, my hometown.<br><br>
-        I'm interested in web design, user experience and exploring the intersection<br> between psychology, education and technology.
-      </p>
+    <div class="row collapse">
+      <div class="small-12 medium-12 columns">
+        <div id="intro">
+          <div class="small-3 medium-3 columns">
+          <img src="./images/rm-md-crop.jpg">
+          </div>
+          <div class="small-9 medium-9 columns">
+          <h3>
+            Hello. I'm Rick Mitchell.
+          </h3>
+          <p>
+            I'm a front-end web developer, UX enthusiast and writer based in Philadelphia, my hometown.<br><br>
+            I'm interested in creating intuitive web experiences and exploring the intersection between psychology and technology.
+          </p>
+        </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
