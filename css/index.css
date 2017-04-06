@@ -42,7 +42,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-right: 18%;
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -56,457 +56,52 @@ nav li {
   border-bottom: 1px solid #e0e0e0;
 }
 
-.big-container {
-  background: url("../images/cityhall.jpg") no-repeat center center fixed;
-  background-size: cover;
-  max-width: 120%;
-  height: 110vh;
-  margin: 0;
-  padding: 0;
-}
-
-.logo-lg {
-  text-align: center;
-  background-color: black;
-  margin-top: -10%;
-}
-
-.logo-lg img {
-  width: 12%;
-}
-
-#intro {
-  padding-top: 2%;
-  margin-bottom: 1%;
-  font-family: 'Montserrat', sans-serif;
-  background: url("../images/phlmap copy2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0 0 1% 1%;
-  margin: 0;
-  width: 100%;
-  margin-right: 20%;
-}
-
-#intro img {
-  padding-top: 1%;
-  padding-left: 1%;
-  max-width: 30%;
-  height: auto;
-  border-radius: 50%;
-  float: left;
-}
-
-#intro h3 {
-  font-size: 1.2rem;
-  padding-top: 13%;
-  text-align: center;
-}
-
-#intro p {
-  font-size: 1rem;
-  margin-right: 2%;
-/*  margin-left: 3%;*/
-  margin-top: 13%;
-}
-
-.contact-container {
-  background: url("../images/math2.png");
-  image-rendering: -webkit-optimize-contrast;
-/*  background-repeat: repeat;
-  background-position: right top;*/
-/*  background-color: gray;
-  background-blend-mode: color-dodge;*/
-/*  background-repeat: repeat-x;
-  background-position: right top;
-  background-size: cover;*/
-/*  background-position: 50% 50%;*/
-/*  height: 100vh;*/
-/*  width: auto;*/
-}
-
-.big-textbox {
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.big-textbox p {
-  font-size: 40px;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding-top: 10px;
-}
-
-.reg-textbox {
-  height: 200px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin-right: 12%;
-  margin-left: 12%;
-  padding-top: 1%;
-}
-
-.reg-textbox p {
-  font-size: 12pt;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding-top: 2%;
-  padding-bottom: 5%;
-}
-
-/*#contact-bar {
-  margin-top: 50px;
-  height: 25vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}*/
-
-.box2 {
-/*  height: 20vh;*/
-/*  width: 200px;*/
-  text-align: center !important;
-/*  margin-left: 20px;*/
-}
-
-.box2 p {
-  font-size: 12pt;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.box2 i {
-  margin: auto 0;
-  color: black;
-  font-size: 60px;
-}
-
-/*.work-contain {
-  top: 138%;
-  margin: 0 auto;
-}*/
-
-.small-centered {
-  margin: 0 auto;
-}
-
-.work-title {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 2%;
-}
-
-.card {
-/*  margin-right: 1%;
-  margin-left: 1%;*/
-  overflow: hidden;
-  position: relative;
-  border: 1px solid black;
-  background: url('../images/memr.png') no-repeat center bottom;
-  background-color: #D3D3D3;
-  background-size: cover;
-  height: 100%;
-  width: auto;
-}
-
-.card2 {
-  margin-right: 1%;
-  margin-left: 1%;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid black;
-  background: url('../images/wfd-2.png') no-repeat center bottom;
-  background-color: #D3D3D3;
-  background-size: cover;
-  height: 100%;
-  width: auto;
-}
-
-.card3 {
-  margin-right: 1%;
-  margin-left: 1%;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid black;
-  background: url('../images/tt-3.png') no-repeat center bottom;
-  background-color: #D3D3D3;
-  background-size: cover;
-  height: 100%;
-  width: auto;
-}
-
-.card4 {
-  margin-right: 1%;
-  margin-left: 1%;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid black;
-  background: url('../images/cb-2.png') no-repeat center top;
-  background-color: #D3D3D3;
-  background-size: cover;
-  height: 100%;
-  width: auto;
-  margin-bottom: 5%;
-}
-
-.card p, .card2 p, .card3 p, .card4 p {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 340px;
-  padding-top: 3%;
-  padding-left: 5px;
-  padding-bottom: 3%;
-  text-align: center;
-  z-index: 9999;
-  background-color: white;
-  color: black;
-}
-
-.cv-container {
-
-  margin: auto;
-}
-
-.cv-container p {
-  font-family: 'Montserrat', sans-serif;
-  padding-bottom: 1%;
-}
-
-.cv-org {
-  display: inline-block;
-  font-weight: bold;
-}
-
-.cv-year {
-  display: inline-block;
-}
-
-.cv-title {
-  font-style: italic;
-}
-
-.cv-description {
-  padding-bottom: 2%;
-}
-
-.cv-description a:link {
-  text-decoration: none;
-  color: gray;
-}
-
-.email-textbox{
-  margin-top: 40px;
-  background: rgb(24, 30, 30); 
-  background: rgba(24, 30, 30, 0.4);
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-right: 12%;
-  margin-left: 12%;
-}
-
-.email-textbox h3{
-  color: white;
-  font-size: 40px;
-}
-
-/* for iPad */
-@media all and (min-width: 767px){
-
-  ul {
-    margin-left: 85%;
-  }
-
-  .logo-lg {
-    margin-top: -3%;
-  }
-
-  .logo-lg img {
-    width: 6%;
-  }
-
-  #intro {
-    height: 50vh;
-  }
-
-  #intro img {
-    max-width: 35%;
-  }
-
-  #intro h3 {
-    font-size: 2rem;
-    padding-top: 17%;
-  }
-
-  #intro p {
-    font-size: 1.5rem;
-    margin-top: 15%;
-  }
-
-  .reg-textbox p {
-    font-size: 18pt;
-    padding-bottom: 0;
-  }
-
-  #contact-bar {
-    margin-top: 25%;
-  }
-
-  .box2 {
-/*  height: 20vh;*/
-/*  width: 200px;*/
-  text-align: center;
-/*  margin-left: 6%;*/
-
-  }
-
-
-
-  .box2 p {
-    font-size: 18pt;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 5%;
-  }
-
-  .box2 i {
-    margin: auto 0;
-    color: black;
-    font-size: 60px;
-  }
-
-  .card {
-    left: 10%;
-    height: 400px;
-    width: 600px;
-  }
-
-  .card2 {
-    left: 10%;
-    height: 400px;
-    width: 600px;
-  }
-
-  .card3 {
-    left: 10%;
-    height: 400px;
-    width: 600px;
-  }
-
-  .card4 {
-    left: 10%;
-    height: 400px;
-    width: 600px;
-    margin-bottom: 5%;
-  }
-
-  .work-title {
-    margin-bottom: 1%;
-  }
-
-  .cv-org {
-    float: left;
-  }
-
-  .cv-year {
-    float: right;
-  }
-
-  .cv-title {
-    clear: both;
-  }
-}
-
-@media all and (min-width: 992px){
-
-
 
 .content {
-  position: absolute;
-  top: 95%;
+  position: fixed; /*was absolute*/
+  top: 103%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 800px;
   overflow:hidden;
-  
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   line-height: 40px;
   color: #ecf0f1;
 }
   
-  .content-container {
-    font-weight: 600;
-    overflow: hidden;
-    height: 85px;
-    padding: 0 36px 0 0;
-    text-align: center;
-  }
+.content-container {
+  font-weight: 600;
+  overflow: hidden;
+  height: 85px;
+  padding: 0 36px 0 0;
+  text-align: center;
+}
 
-    .content-container::before {
-      content: '[';
-      left: 0;
-      color: white !important;
-    }
+.content-container-list {
+  margin-top: 0;
+  margin-left: 30px;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+  
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 
-    .content-container::after {
-      content: ']';
-      position: absolute;
-      right: 0;
-      color: white !important;
-    }
+}
 
-    .content-container::after, .content-container::before {
-      position: absolute;
-      top: 0;
-      
-      color: white;
-      font-size: 6rem;
-      line-height: 60px;
-      
-      -webkit-animation-name: opacity;
-      -webkit-animation-duration: 2s;
-      -webkit-animation-iteration-count: infinite;
-      animation-name: opacity;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-    }
-
-
-
-    .content-container-list {
-      margin-top: 0;
-      margin-left: 30px;
-      padding-left: 0;
-      text-align: center;
-      list-style: none;
-      
-      -webkit-animation-name: change;
-      -webkit-animation-duration: 10s;
-      -webkit-animation-iteration-count: infinite;
-      animation-name: change;
-      animation-duration: 10s;
-      animation-iteration-count: infinite;
-
-    }
-
-      .content-container-list-item {
-        line-height: 80px;
-        margin:0;
-        padding: 0;
-   /*     text-align: center;*/
-        font-size: 4.3rem;
-        width: 700px;
-      }
-
+.content-container-list-item {
+  line-height: 80px;
+  margin:0;
+  padding: 0;
+/*     text-align: center;*/
+  font-size: 2.3rem;
+  width: 400px;
+}
 
 @-webkit-keyframes opacity {
   0%, 100% {opacity:0;}
@@ -564,6 +159,449 @@ nav li {
   83.3%,95.96% {transform:translate3d(0,-25%,0);}
 }
 
+.big-container {
+  background: url("../images/cityhall.jpg") no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
+  background-position: 55%;
+  height: 110vh;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-lg {
+  text-align: center;
+  background-color: black;
+}
+
+.logo-lg img {
+  display: none;
+}
+
+#intro {
+  padding-top: 2%;
+  margin-bottom: 1%;
+  font-family: 'Montserrat', sans-serif;
+  background: url("../images/phlmap copy2.jpg") no-repeat center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 1% 1%;
+  margin: 0;
+  width: 100%;
+  height: 48vh;
+}
+
+#intro img {
+  padding-top: 1%;
+  padding-left: 1%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+}
+
+#intro h3 {
+  font-size: 1.2rem;
+  padding-top: 18%;
+  padding-bottom: 20%;
+}
+
+#intro p {
+  font-size: 1rem;
+  margin-left: -45%;
+}
+
+.contact-container {
+  background: url("../images/math2.png");
+  image-rendering: -webkit-optimize-contrast;
+  width: 100%;
+}
+
+.big-textbox {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.big-textbox p {
+  font-size: 40px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.reg-textbox {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 1%;
+}
+
+.reg-textbox p {
+  font-size: 12pt;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.box2 {
+  text-align: center !important;
+}
+
+.box2 p {
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box2 i {
+  margin: auto 0;
+  color: black;
+  font-size: 40px;
+}
+
+.small-centered {
+  margin: 0 auto;
+}
+
+.work-title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5%;
+}
+
+.card, .card1, .card2, .card3, .card4 {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid black;
+  background-color: #D3D3D3;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+
+}
+
+.card {
+  background: url('../images/memr.png') no-repeat center bottom;
+}
+
+.card1 {
+  background: url('../images/amc.png') no-repeat center bottom;
+  background-position: 24%;
+}
+
+.card2 {
+  background: url('../images/wfd-2.png') no-repeat center bottom;
+}
+
+.card3 {
+  background: url('../images/tt-3.png') no-repeat center bottom;
+}
+
+.card4 {
+  background: url('../images/cb-2.png') no-repeat center top;
+  margin-bottom: 5%;
+}
+
+.card p, .card1 p, .card2 p, .card3 p, .card4 p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 340px;
+  padding-top: 3%;
+  padding-left: 5px;
+  padding-bottom: 3%;
+  text-align: center;
+  z-index: 9999;
+  background-color: white;
+  color: black;
+}
+
+.cv-container {
+  margin: auto;
+}
+
+.cv-container p {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1%;
+}
+
+.cv-org {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.cv-year {
+  display: inline-block;
+}
+
+.cv-title {
+  font-style: italic;
+}
+
+.cv-description {
+  padding-bottom: 4%;
+}
+
+.cv-description a:link, .cv-description a:visited {
+  text-decoration: none;
+  color: #8a8a8a;
+}
+
+.email-textbox{
+  margin-top: 40px;
+  background: rgb(24, 30, 30); 
+  background: rgba(24, 30, 30, 0.4);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.email-textbox h3 {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.paddy {
+  margin-bottom: 20px;
+}
+
+/* for iPad Tablet */
+@media all and (min-width: 767px){
+
+  nav li {
+    font-size: 1.2rem;
+    margin-right: 6%;
+  }
+
+  ul {
+    margin-left: 80%;
+  }
+
+  .logo-lg {
+    margin-top: -6%;
+  }
+
+  .logo-lg img {
+    display: inline-block;
+    width: 6%;
+  }
+
+  .big-container {
+    max-width: 120%;
+    background-position: 50%;
+  }
+
+  .content-container::before {
+    content: '[';
+    left: 0;
+    color: white !important;
+  }
+
+  .content-container::after {
+    content: ']';
+    position: absolute;
+    right: 0;
+    color: white !important;
+  }
+
+  .content-container::after, .content-container::before {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 60px;
+    
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .content-container::after, .content-container::before {
+    font-size: 6rem;  
+  }
+
+  .content-container-list-item {
+    line-height: 80px;
+    margin:0;
+    padding: 0;
+    font-size: 4.3rem;
+    width: 700px;
+  }
+
+  #intro {
+    height: 29vh;
+  }
+
+  #intro img {
+    max-width: 100%;
+    margin-top: 17%;
+  }
+
+  #intro h3 {
+    font-size: 2rem;
+    padding-top: 5%;
+    padding-bottom: 0;
+  }
+
+  #intro p {
+    font-size: 1.5rem;
+    margin-top: 3%;
+    margin-left: 0;
+  }
+
+  .reg-textbox p {
+    font-size: 18pt;
+    padding-bottom: 0;
+  }
+
+  #contact-bar {
+    margin-top: 25%;
+  }
+
+  .box2 {
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .box2 p {
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+  }
+
+  .box2 i {
+    margin: auto 0;
+    color: black;
+    font-size: 60px;
+  }
+
+  .card, .card1, .card2, .card3, .card4 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .card4 {
+    margin-bottom: 5%;
+  }
+
+  .work-title {
+    margin-bottom: 1%;
+  }
+
+  .cv-description {
+    padding-bottom: 2%;
+  }
+
+  .cv-org {
+    float: left;
+  }
+
+  .cv-year {
+    float: right;
+  }
+
+  .cv-title {
+    clear: both;
+  }
+
+  .email-textbox{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .email-textbox h3{
+    font-size: 40px;
+  }
+
+}
+
+@media all and (min-width: 992px){
+
+  .content {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    overflow:hidden;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ecf0f1;
+  }
+    
+  .content-container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 85px;
+    padding: 0 36px 0 0;
+    text-align: center;
+  }
+
+  .content-container::before {
+    content: '[';
+    left: 0;
+    color: white !important;
+  }
+
+  .content-container::after {
+    content: ']';
+    position: absolute;
+    right: 0;
+    color: white !important;
+  }
+
+  .content-container::after, .content-container::before {
+    position: absolute;
+    top: 0;
+    
+    color: white;
+    font-size: 6rem;
+    line-height: 60px;
+    
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  .content-container-list {
+    margin-top: 0;
+    margin-left: 30px;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+    
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+  }
+
+  .content-container-list-item {
+    line-height: 80px;
+    margin:0;
+    padding: 0;
+    font-size: 4.3rem;
+    width: 700px;
+  }
+
   .logo-lg {
     margin-top: -3%;
   }
@@ -575,32 +613,33 @@ nav li {
   }
 
   ul {
-    margin-left: 72%;
+    margin-left: 70%;
+  }
+
+  nav li {
+    margin-right: 16%;
   }
 
   #intro {
-/*    height: 35vh;*/
-/*    padding-bottom: 5%;*/
     height: 40vh;
   }
 
   #intro img {
+    margin-top: 0;
+    margin-left: 5%;
     padding-top: 10%;
     max-width: 80%;
-/*    height: 100%;*/
   }
 
   #intro h3 {
     font-size: 2rem;
     padding-top: 7.5%;
     float: left;
-/*    padding-right: 40%;*/
   }
 
   #intro p {
     font-size: 1.2rem;
     float: left;
-/*    margin-right: 20%;*/
     margin-top: 2%;
     margin-right: 15%;
   }
@@ -615,10 +654,9 @@ nav li {
   }
 
 
-  .card, .card2, .card3, .card4 {
-    left: 28%;
+  .card, .card1, .card2, .card3, .card4 {
     height: 20%;
-/*    width: 42%;*/
+    width: 100%;
   }
 
   .card4 {
@@ -626,7 +664,7 @@ nav li {
   }
 
   #contact-bar {
-  margin-top: 8%;
+    margin-top: 8%;
   }
 
   .work-title {
@@ -653,11 +691,6 @@ nav li {
     padding-bottom: 2%;
   }
 
-  .cv-description a:link {
-    text-decoration: none;
-    color: gray;
-  }
-
   .box2 p {
     font-size: 22px;
     font-weight: 600;
@@ -667,10 +700,6 @@ nav li {
 
   .centered-row {
     text-align: center;
-  }
-
-  .paddy {
-    margin-bottom: 20px;
   }
 
 }
