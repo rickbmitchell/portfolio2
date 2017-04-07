@@ -69,7 +69,7 @@ nav li {
   line-height: 40px;
   color: #ecf0f1;
 }
-  
+
 .content-container {
   font-weight: 600;
   overflow: hidden;
@@ -84,7 +84,7 @@ nav li {
   padding-left: 0;
   text-align: center;
   list-style: none;
-  
+
   -webkit-animation-name: change;
   -webkit-animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
@@ -280,31 +280,34 @@ nav li {
   position: relative;
   border: 1px solid black;
   background-color: #D3D3D3;
-  background-size: cover;
   height: 100%;
   width: auto;
-
 }
 
 .card {
   background: url('../images/memr.png') no-repeat center bottom;
+  background-size: cover;
 }
 
 .card1 {
   background: url('../images/amc.png') no-repeat center bottom;
+  background-size: cover;
   background-position: 24%;
 }
 
 .card2 {
   background: url('../images/wfd-2.png') no-repeat center bottom;
+  background-size: cover;
 }
 
 .card3 {
   background: url('../images/tt-3.png') no-repeat center bottom;
+  background-size: cover;
 }
 
 .card4 {
   background: url('../images/cb-2.png') no-repeat center top;
+  background-size: cover;
   margin-bottom: 5%;
 }
 
@@ -353,7 +356,7 @@ nav li {
 
 .email-textbox{
   margin-top: 40px;
-  background: rgb(24, 30, 30); 
+  background: rgb(24, 30, 30);
   background: rgba(24, 30, 30, 0.4);
   text-align: center;
   padding-top: 50px;
@@ -396,6 +399,11 @@ nav li {
     background-position: 50%;
   }
 
+  .content {
+    position: absolute;
+    top: 90%;
+  }
+
   .content-container::before {
     content: '[';
     left: 0;
@@ -415,7 +423,7 @@ nav li {
     color: white;
     font-size: 2.5rem;
     line-height: 60px;
-    
+
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
@@ -425,7 +433,7 @@ nav li {
   }
 
   .content-container::after, .content-container::before {
-    font-size: 6rem;  
+    font-size: 6rem;
   }
 
   .content-container-list-item {
@@ -437,7 +445,7 @@ nav li {
   }
 
   #intro {
-    height: 29vh;
+    height: 35vh;
   }
 
   #intro img {
@@ -458,7 +466,7 @@ nav li {
   }
 
   .reg-textbox p {
-    font-size: 18pt;
+    font-size: 1.2rem;
     padding-bottom: 0;
   }
 
@@ -472,15 +480,16 @@ nav li {
   }
 
   .box2 p {
-    font-size: 18pt;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     margin-top: 5%;
+    font-weight: 600;
   }
 
   .box2 i {
     margin: auto 0;
     color: black;
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .card, .card1, .card2, .card3, .card4 {
@@ -532,13 +541,13 @@ nav li {
     transform: translate(-50%, -50%);
     height: 800px;
     overflow:hidden;
-    
+
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     line-height: 40px;
     color: #ecf0f1;
   }
-    
+
   .content-container {
     font-weight: 600;
     overflow: hidden;
@@ -563,11 +572,11 @@ nav li {
   .content-container::after, .content-container::before {
     position: absolute;
     top: 0;
-    
+
     color: white;
     font-size: 6rem;
     line-height: 60px;
-    
+
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
@@ -584,7 +593,7 @@ nav li {
     padding-left: 0;
     text-align: center;
     list-style: none;
-    
+
     -webkit-animation-name: change;
     -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
@@ -704,13 +713,63 @@ nav li {
 
 }
 
-/*@media all and (min-width: 1500px) {
+@media all and (min-width: 1780px) and (max-width: 2399px) {
+  .logo-lg img {
+    width: 3%;
+  }
+
+  .logo-lg {
+    margin-top: -2%;
+  }
+
+}
+
+@media all and (min-width: 2400px) {
+
+  .logo-lg {
+    margin-top: -2%;
+  }
+
+  .logo-lg img {
+    width: 3%;
+  }
+
+  #intro img {
+    max-width: 58%;
+  }
+
+
+  #intro h3 {
+    font-size: 2.5rem;
+    padding-top: 7.5%;
+    float: left;
+  }
 
   #intro p {
     margin-left: 0;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-right: 23%;
     margin-top: 2%;
   }
 
-}*/
+  .card, .card1, .card2, .card3, .card4 {
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+  }
+
+  .reg-textbox p {
+    font-size: 2rem;
+  }
+
+  .box2 p {
+    font-size: 2rem;
+    margin-top: 1%;
+    font-weight: 600;
+  }
+
+  .box2 i {
+    font-size: 60px;
+  }
+
+}
