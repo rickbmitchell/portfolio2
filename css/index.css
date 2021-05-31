@@ -31,22 +31,25 @@ nav {
   height: 3%;
   background-color: black;
   padding-top: 1%;
-  display: inline-block;
 }
 
 nav ul {
   padding: 0px;
-  margin-left: 73%;
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6%;
+  padding-bottom: 1%;
 }
 
 nav li {
   display: inline-block;
   font-size: 1rem;
-  margin-right: 18%;
+/*  margin-right: 18%;*/
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-weight: bold;
+/*  padding-bottom: 10px;*/
 }
 
 .index #index-nav,
@@ -206,7 +209,7 @@ nav li {
 #intro h3 {
   font-size: 1.2rem;
   padding-top: 18%;
-  padding-bottom: 20%;
+  padding-bottom: 25%;
 }
 
 #intro p {
@@ -272,6 +275,10 @@ nav li {
   margin: 0 auto;
 }
 
+.work-container {
+  margin-bottom: 20px;
+}
+
 .work-title {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -279,7 +286,7 @@ nav li {
   margin-bottom: 5%;
 }
 
-.card, .card1, .card2, .card3, .card4 {
+.card0, .card1, .card2, .card3, .card4 {
   overflow: hidden;
   position: relative;
   border: 1px solid black;
@@ -288,24 +295,24 @@ nav li {
   width: auto;
 }
 
-.card {
+.card2 {
   background: url('../images/memr.png') no-repeat center bottom;
   background-size: cover;
 }
 
 .card1 {
-  background: url('../images/amc.png') no-repeat center bottom;
+  background: url('../images/zoetry-home.png') no-repeat center bottom;
   background-size: cover;
-  background-position: 24%;
 }
 
-.card2 {
-  background: url('../images/wfd-2.png') no-repeat center bottom;
+.card0 {
+  background: url('../images/bdt-home.png') no-repeat center bottom;
   background-size: cover;
+  background-position: 10%;
 }
 
 .card3 {
-  background: url('../images/tt-3.png') no-repeat center bottom;
+  background: url('../images/tev-media.png') no-repeat center bottom;
   background-size: cover;
 }
 
@@ -315,7 +322,7 @@ nav li {
   margin-bottom: 5%;
 }
 
-.card p, .card1 p, .card2 p, .card3 p, .card4 p {
+.card0 p, .card1 p, .card2 p, .card3 p, .card4 p {
   font-family: 'Montserrat', sans-serif;
   margin-top: 340px;
   padding-top: 3%;
@@ -374,23 +381,59 @@ nav li {
 }
 
 .paddy {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+@media all and (max-width: 766px){
+  nav ul {
+    margin-bottom: 0;
+  }
+  #intro {
+    height: 300px;
+  }
 }
 
 /* for iPad Tablet */
 @media all and (min-width: 767px){
 
-  nav li {
+/*  nav li {
     font-size: 1.2rem;
     margin-right: 6%;
-  }
+  }*/
+
+
+nav {
+  width: 100%;
+  height: 3%;
+  background-color: black;
+  padding-top: 1%;
+}
+
+nav ul {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.2rem;
+/*  margin-right: 18%;*/
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-right: 6%;
+/*  padding-bottom: 10px;*/
+}
 
   ul {
-    margin-left: 80%;
+    margin-left: 70%;
   }
 
   .logo-lg {
-    margin-top: -6%;
+    margin-top: -5.5%;
+    padding-bottom: 4px;
   }
 
   .logo-lg img {
@@ -406,6 +449,7 @@ nav li {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+/*    height: 1vh;*/
   }
 
   .content {
@@ -495,13 +539,13 @@ nav li {
   }
 
   #intro h3 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding-top: 5%;
     padding-bottom: 0;
   }
 
   #intro p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 3%;
     margin-left: 0;
   }
@@ -533,7 +577,7 @@ nav li {
     font-size: 40px;
   }
 
-  .card, .card1, .card2, .card3, .card4 {
+  .card0, .card1, .card2, .card3, .card4 {
     height: 100%;
     width: 100%;
   }
@@ -653,12 +697,13 @@ nav li {
   }
 
   .logo-lg {
-    margin-top: -3%;
+    margin-top: -4%;
+    padding-bottom: 4px;
   }
 
   .logo-lg img {
     width: 4%;
-    margin-top: -.5%;
+/*    margin-top: -.5%;*/
     vertical-align: initial;
   }
 
@@ -704,7 +749,7 @@ nav li {
   }
 
 
-  .card, .card1, .card2, .card3, .card4 {
+  .card0, .card1, .card2, .card3, .card4 {
     height: 20%;
     width: 100%;
   }
@@ -754,6 +799,27 @@ nav li {
 
 }
 
+@media all and (min-width: 639px) and (max-width: 766px) {
+#intro p {
+  margin-left: -30%;
+}
+
+#intro h3 {
+  padding-bottom: 10%;
+}
+
+@media all and (min-width: 1379px){
+  .logo-lg {
+    padding: 4px 0;
+  }
+}
+
+@media all and (min-width: 1448px){
+  .logo-lg {
+    margin-top: -3.5%;
+  }
+}
+
 @media all and (min-width: 1780px) and (max-width: 2399px) {
   .logo-lg img {
     width: 3%;
@@ -793,7 +859,7 @@ nav li {
     margin-top: 2%;
   }
 
-  .card, .card1, .card2, .card3, .card4 {
+  .card0, .card1, .card2, .card3, .card4 {
     height: 100%;
     width: 100%;
     background-position: top center;
@@ -813,4 +879,10 @@ nav li {
     font-size: 60px;
   }
 
+}
+
+@media all and (max-width: 519px){
+  nav li {
+    padding-top: 6.5%;
+  }
 }
