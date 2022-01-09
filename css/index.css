@@ -5,9 +5,13 @@
   padding: 0;
 }
 
-/* body {
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   overflow-x: hidden;
-} */
+}
 
 header {
   font-family: "Montserrat", sans-serif;
@@ -60,10 +64,10 @@ nav li {
 
 .content {
   position: absolute;
-  top: 103%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 800px;
+  height: 80vh;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
@@ -75,17 +79,15 @@ nav li {
   font-weight: 600;
   overflow: hidden;
   height: 85px;
-  padding: 0 36px 0 0;
   text-align: center;
 }
 
 .content-container-list {
   margin-top: 0;
-  margin-left: 30px;
+  margin-left: 0px;
   padding-left: 0;
   text-align: center;
   list-style: none;
-
   -webkit-animation-name: change;
   -webkit-animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
@@ -99,7 +101,7 @@ nav li {
   margin: 0;
   padding: 0;
   font-size: 2.3rem;
-  width: 400px;
+  width: 100vw;
 }
 
 @-webkit-keyframes opacity {
@@ -261,8 +263,7 @@ nav li {
   -moz-background-size: cover;
   -o-background-size: cover;
   max-width: 100%;
-  background-position: scroll;
-  height: 110vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
 }
@@ -309,16 +310,14 @@ footer .separator {
 }
 
 #intro {
-  padding-top: 2%;
-  margin-bottom: 1%;
+  padding: 16px 0;
   font-family: "Montserrat", sans-serif;
   background: url("../images/phlmap copy2.jpg") no-repeat center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 0 1% 1%;
   margin: 0;
   width: 100%;
-  height: 48vh;
+  height: 300px;
 }
 
 #intro img {
@@ -339,7 +338,8 @@ footer .separator {
 #intro p {
   font-size: 1rem;
   margin-left: -45%;
-  margin-top: 1%;
+  margin-top: 5%;
+  padding-bottom: 16px;
 }
 
 .contact-container {
@@ -532,17 +532,12 @@ footer .separator {
     margin-bottom: 0;
   }
   #intro {
-    height: 300px;
+    height: 325px;
   }
 }
 
 /* for iPad Tablet */
 @media all and (min-width: 767px) {
-  /*  nav li {
-    font-size: 1.2rem;
-    margin-right: 6%;
-  }*/
-
   nav {
     width: 100%;
     height: 3%;
@@ -588,6 +583,7 @@ footer .separator {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
   }
 
   .content {
@@ -645,7 +641,6 @@ footer .separator {
     color: white;
     font-size: 2.5rem;
     line-height: 60px;
-
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
@@ -668,7 +663,7 @@ footer .separator {
   }
 
   #intro {
-    height: 35vh;
+    height: 300px;
   }
 
   #intro img {
@@ -767,7 +762,6 @@ footer .separator {
     transform: translate(-50%, -50%);
     height: 800px;
     overflow: hidden;
-
     font-family: "Montserrat", sans-serif;
     font-size: 35px;
     line-height: 40px;
@@ -799,11 +793,9 @@ footer .separator {
   .content-container::before {
     position: absolute;
     top: 0;
-
     color: white;
     font-size: 6rem;
     line-height: 60px;
-
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
@@ -818,7 +810,6 @@ footer .separator {
     padding-left: 0;
     text-align: center;
     list-style: none;
-
     -webkit-animation-name: change;
     -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
@@ -854,7 +845,8 @@ footer .separator {
   }
 
   #intro {
-    height: 40vh;
+    height: 320px;
+    padding-top: 0;
   }
 
   #intro img {
